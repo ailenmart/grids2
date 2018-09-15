@@ -1,0 +1,75 @@
+html,body{
+	margin: 0; 
+}
+.contenedor{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 50px 50px 50px 50px 50px 50px;
+	grid-template-areas:
+		"uno uno dos tres"
+		"cuatro cinco seis ."
+		"siete siete ocho nueve"
+		"siete siete diez ."
+		"once once once doce"
+		"trece . . ." ;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+.item1{
+	grid-area: uno;
+	background: #BCE658;
+}
+.item2{
+	grid-area: dos;
+	background: #BCE658;
+}
+.item3{
+	grid-area: tres;
+	background: #BCE658;
+}
+.item4{
+	grid-area: cuatro;
+	background: #BCE658;
+}
+.item5{
+	grid-area: cinco;
+	background: #BCE658;
+}
+.item6{
+	grid-area: seis;
+	background: #BCE658;
+}
+.item7{
+	grid-area: siete;
+	background: #BCE658;
+}
+.item8{
+	grid-area: ocho;
+	background: #BCE658;
+}
+.item9{
+	grid-area: nueve;
+	background: #BCE658;
+}
+.item10{
+	grid-area: diez;
+	background: #BCE658;
+}
+.item11{
+	grid-area: once;
+	background: #BCE658;
+}
+.item12{
+	grid-area: doce;
+	background: #BCE658;
+}
+.item13{
+	grid-area: trece;
+	background: #BCE658;
+}
+div[class^="item"]{
+	font-family: questrial;
+	font-size: 30px;
+	color: #ffff;
+	padding: 10px;
+}
